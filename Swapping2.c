@@ -1,13 +1,13 @@
-#include<stdio.h>
-int main(l
+#include<iostream.h>
+int main()
 {
  int a,b;
- printf("Enter two numbers a and b");
- scanf("%d%d",a,b);
+ cout<<"Enter two numbers a and b";
+ cin>>a>>b;
  a=a^b;
  b=a^b;
  a=a^b;
- printf(%numbers after swapping\n");
- printf("%d %d",a,b);
+ cout<<umbers after swapping\n";
+ cin>>a>>b;
  return 0;
 }
